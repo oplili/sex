@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>아이템 뽑기</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>아이템 뽑기</h1>
+        </header>
+        <section class="main-content">
+            <div class="input-group">
+                <label for="draw-count">뽑기 횟수: </label>
+                <input type="number" id="draw-count" value="1" min="1">
+            </div>
+            <button class="draw-button" onclick="drawItem()">아이템 뽑기</button>
+            <ul id="result-list" class="result-list"></ul>
+        </section>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
